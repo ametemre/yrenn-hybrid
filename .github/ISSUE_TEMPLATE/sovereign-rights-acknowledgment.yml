@@ -1,6 +1,6 @@
 name: Sovereign Rights Acknowledgment
 description: Sign acknowledgment of attribution + sovereignty + Claude exception + forbidden-content terms.
-title: "Sovereign Rights Acknowledgment — @${{ github.actor }}"
+title: "Sovereign Rights Acknowledgment — [your-handle]"
 labels: ["sovereign-rights-ack"]
 body:
   - type: markdown
