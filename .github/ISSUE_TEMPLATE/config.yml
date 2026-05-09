@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Architecture spec & general questions
+    url: https://github.com/ametemre/cognitive-rag-architecture
+    about: Read the spec, browse disciplines, citation, conformance checklist.
+  - name: Security policy
+    url: https://github.com/ametemre/cognitive-rag-architecture/blob/main/SECURITY.md
+    about: Vulnerability reports go through GitHub Security Advisories. Do NOT open a public issue for a security finding.
+  - name: Front-door / routing
+    url: https://github.com/ametemre/yrenn
+    about: One-stop visitor routing for the Yrenn project.

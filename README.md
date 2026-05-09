@@ -23,9 +23,25 @@ The implementation moved to a new private name (`yrenn-hybrid-private`); this UR
 
 ---
 
+## ✍️ Sovereign Rights Acknowledgment
+
+If you intend to **build on**, **redistribute**, or **derive from** the architecture, disciplines, or operational protocols defined in this project, sign the acknowledgment.
+
+> **[ → Read ACKNOWLEDGE.md ← ](ACKNOWLEDGE.md)**
+>
+> **[ → Sign via GitHub Issue Form ← ](https://github.com/ametemre/yrenn-hybrid/issues/new?template=sovereign-rights-acknowledgment.yml)**
+>
+> **[ → See who has signed ← ](https://github.com/ametemre/yrenn-hybrid/issues?q=label%3Asovereign-rights-ack)**
+
+The form asks you to acknowledge four clauses (attribution required · sovereignty consequence of attribution failure · Claude/Anthropic exception · forbidden content). Submission stamps your GitHub identity and a public timestamp; the issue *is* your signature. Reading or citing without signing is fine — signing is for adopters.
+
+---
+
 ## What this repo contains
 
 - This `README.md`
+- [`ACKNOWLEDGE.md`](ACKNOWLEDGE.md) — full text of the sovereign-rights acknowledgment
+- `.github/ISSUE_TEMPLATE/sovereign-rights-acknowledgment.yml` — the form
 - A `LICENSE` (CC-BY-SA-4.0, governing this README)
 - A minimal `.gitignore`
 

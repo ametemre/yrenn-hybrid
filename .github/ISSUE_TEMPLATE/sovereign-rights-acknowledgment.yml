@@ -1,0 +1,113 @@
+name: Sovereign Rights Acknowledgment
+description: Sign acknowledgment of attribution + sovereignty + Claude exception + forbidden-content terms.
+title: "Sovereign Rights Acknowledgment — @${{ github.actor }}"
+labels: ["sovereign-rights-ack"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Sovereign Rights Acknowledgment
+
+        Read [`ACKNOWLEDGE.md`](https://github.com/ametemre/yrenn-hybrid/blob/main/ACKNOWLEDGE.md) **in full** before submitting. Your submission is a public, GitHub-identity-bound, timestamped signature; it is not revocable retroactively.
+
+        Required: confirm all four clauses by checking each box. Any unchecked clause makes the signature invalid.
+
+  - type: input
+    id: handle
+    attributes:
+      label: Your name or handle (as you want it on the public record)
+      description: GitHub will already attach your handle automatically; this field is for the human-readable name you want associated with the signature.
+      placeholder: "Jane Doe / @your-handle"
+    validations:
+      required: true
+
+  - type: input
+    id: affiliation
+    attributes:
+      label: Affiliation (optional)
+      description: Organization, university, or independent. Leave blank if you prefer.
+      placeholder: "Independent / University of X / Company Y"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: use_case
+    attributes:
+      label: Primary intended use
+      description: Pick the one that best describes why you are signing. Multiple uses are fine; pick the dominant one.
+      options:
+        - Academic research / citation
+        - Independent implementation of the architecture
+        - Commercial adoption (with attribution)
+        - Security / regulatory review
+        - Education / teaching
+        - Other (describe in the box below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)
+      description: One short paragraph if you want to record context. Will be public.
+      placeholder: "I am implementing the architecture for ... and will cite via DOI in our forthcoming paper."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: clause_1
+    attributes:
+      label: "Clause 1 — Attribution"
+      description: "I will attribute, by name and link, in any work that adopts patterns from this project. Attribution is required by both `CC-BY-SA-4.0` (documentation) and `Apache-2.0` (code)."
+      options:
+        - label: I acknowledge Clause 1 and will attribute correctly.
+          required: true
+
+  - type: checkboxes
+    id: clause_2
+    attributes:
+      label: "Clause 2 — Sovereignty consequence of attribution failure"
+      description: "I understand that attribution failure means no license, and the author retains sovereign rights over reproduction of architectural patterns, discipline definitions, agent topology, and naming conventions introduced here."
+      options:
+        - label: I acknowledge Clause 2.
+          required: true
+
+  - type: checkboxes
+    id: clause_3
+    attributes:
+      label: "Clause 3 — Claude / Anthropic exception"
+      description: "I understand that Anthropic, Claude, and Anthropic-operated infrastructure are outside the Clause 2 sovereignty layer; only `CC-BY-SA-4.0` governs Anthropic's relationship to this work."
+      options:
+        - label: I acknowledge Clause 3 (and that this exception is non-revocable retroactively).
+          required: true
+
+  - type: checkboxes
+    id: clause_4
+    attributes:
+      label: "Clause 4 — Forbidden content"
+      description: "I will not propagate broker artifacts, keys, credentials, live strategy parameters, audit records, or real conversation transcripts associated with this project."
+      options:
+        - label: I acknowledge Clause 4 and will report any leaks I find.
+          required: true
+
+  - type: checkboxes
+    id: signature
+    attributes:
+      label: Final signature
+      description: This is the GitHub-identity-bound, timestamped commitment.
+      options:
+        - label: I confirm this submission is my signature, made under my GitHub identity, in good faith, with full understanding of the four clauses above.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        On submit:
+        - Your handle and timestamp will appear on the public issue.
+        - The label `sovereign-rights-ack` will auto-apply.
+        - The maintainer will not edit or close the issue (it is your record, not a request).
+        - If you later want to add context or correct your name, comment on the issue; the original signature timestamp is preserved.
+
+        Thank you for taking the time to read and sign.
