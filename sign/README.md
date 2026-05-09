@@ -4,9 +4,9 @@ Standalone PHP form that renders the four-clause acknowledgment, validates submi
 
 ## Why PHP?
 
-GitHub Pages doesn't run server-side code, so the GitHub Issue Form (in [`../.github/ISSUE_TEMPLATE/`](../.github/ISSUE_TEMPLATE/sovereign-rights-acknowledgment.yml)) is the GitHub-native channel. That route requires a GitHub login.
+GitHub Pages doesn't run server-side code. The **canonical** signing channel for this project is the GitHub Issue Form (in [`../.github/ISSUE_TEMPLATE/`](../.github/ISSUE_TEMPLATE/sovereign-rights-acknowledgment.yml)) — it lives on `github.com/ametemre/yrenn-hybrid` and produces a verified record. That route requires a GitHub login.
 
-This PHP version is the **GitHub-login-free** alternative — anyone with a browser can sign. It needs a PHP-capable host (shared hosting, VPS, or your own webserver). Both routes are valid; signers may pick whichever fits.
+This PHP version is published as **source-only** for self-hosters — adopters who want a GitHub-login-free path on their own infrastructure. **There is no officially-operated public instance.** The public URL of this project is the GitHub repository: [github.com/ametemre/yrenn-hybrid](https://github.com/ametemre/yrenn-hybrid). If you stand up an instance of this PHP form, you operate it under your own authority; the canonical signature record on GitHub is the one this project recognizes.
 
 ## Files
 

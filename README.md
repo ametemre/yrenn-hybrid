@@ -29,14 +29,13 @@ If you intend to **build on**, **redistribute**, or **derive from** the architec
 
 > **[ → Read ACKNOWLEDGE.md ← ](ACKNOWLEDGE.md)**
 >
-> Two equivalent signing routes — pick whichever fits:
+> **🐙 Canonical signing channel:** [**GitHub Issue Form**](https://github.com/ametemre/yrenn-hybrid/issues/new?template=sovereign-rights-acknowledgment.yml) — needs a GitHub login; your handle + timestamp become the public, GitHub-identity-bound signature. This is the only channel that produces a verified record on the canonical repo.
 >
-> - **🐙 [GitHub Issue Form](https://github.com/ametemre/yrenn-hybrid/issues/new?template=sovereign-rights-acknowledgment.yml)** — needs a GitHub login; your handle + timestamp become the public, GitHub-identity-bound signature.
-> - **📝 [Standalone PHP form](sign/sign.php)** ([source](sign/sign.php) · [deployment guide](sign/README.md)) — no GitHub login needed; works on any PHP 7.4+ host. Hosted instance: *(deployment-dependent — see `sign/README.md`).*
+> **📝 Self-host alternative (PHP):** Source for a standalone PHP form is published at [`sign/`](sign/) ([deployment guide](sign/README.md)). It exists for adopters who want a GitHub-login-free path — fork, host it on your own PHP 7.4+ server, and route signers there. **No officially-hosted public instance is operated**; the canonical record lives on GitHub. *Public URL of this project: this repository, [github.com/ametemre/yrenn-hybrid](https://github.com/ametemre/yrenn-hybrid).*
 >
-> **[ → See who has signed (GitHub route) ← ](https://github.com/ametemre/yrenn-hybrid/issues?q=label%3Asovereign-rights-ack)**
+> **[ → See who has signed ← ](https://github.com/ametemre/yrenn-hybrid/issues?q=label%3Asovereign-rights-ack)**
 
-The form asks you to acknowledge four clauses (attribution required · sovereignty consequence of attribution failure · Claude/Anthropic exception · forbidden content). Both routes produce public, durable, non-retroactively-revocable signatures. Reading or citing without signing is fine — signing is for adopters.
+The form asks you to acknowledge four clauses (attribution required · sovereignty consequence of attribution failure · Claude/Anthropic exception · forbidden content). Submission produces a public, durable, non-retroactively-revocable signature. Reading or citing without signing is fine — signing is for adopters.
 
 ---
 
