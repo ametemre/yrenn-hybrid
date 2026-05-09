@@ -1,0 +1,14 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# IP guard
+*.key
+*.pem
+*.env
+**/secrets/
+**/credentials/
+mt4_yrenn_*
+mt5_yrenn_*
