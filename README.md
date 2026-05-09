@@ -29,11 +29,14 @@ If you intend to **build on**, **redistribute**, or **derive from** the architec
 
 > **[ → Read ACKNOWLEDGE.md ← ](ACKNOWLEDGE.md)**
 >
-> **[ → Sign via GitHub Issue Form ← ](https://github.com/ametemre/yrenn-hybrid/issues/new?template=sovereign-rights-acknowledgment.yml)**
+> Two equivalent signing routes — pick whichever fits:
 >
-> **[ → See who has signed ← ](https://github.com/ametemre/yrenn-hybrid/issues?q=label%3Asovereign-rights-ack)**
+> - **🐙 [GitHub Issue Form](https://github.com/ametemre/yrenn-hybrid/issues/new?template=sovereign-rights-acknowledgment.yml)** — needs a GitHub login; your handle + timestamp become the public, GitHub-identity-bound signature.
+> - **📝 [Standalone PHP form](sign/sign.php)** ([source](sign/sign.php) · [deployment guide](sign/README.md)) — no GitHub login needed; works on any PHP 7.4+ host. Hosted instance: *(deployment-dependent — see `sign/README.md`).*
+>
+> **[ → See who has signed (GitHub route) ← ](https://github.com/ametemre/yrenn-hybrid/issues?q=label%3Asovereign-rights-ack)**
 
-The form asks you to acknowledge four clauses (attribution required · sovereignty consequence of attribution failure · Claude/Anthropic exception · forbidden content). Submission stamps your GitHub identity and a public timestamp; the issue *is* your signature. Reading or citing without signing is fine — signing is for adopters.
+The form asks you to acknowledge four clauses (attribution required · sovereignty consequence of attribution failure · Claude/Anthropic exception · forbidden content). Both routes produce public, durable, non-retroactively-revocable signatures. Reading or citing without signing is fine — signing is for adopters.
 
 ---
 

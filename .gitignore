@@ -12,3 +12,7 @@
 **/credentials/
 mt4_yrenn_*
 mt5_yrenn_*
+
+# Sign form runtime artifacts (signature data must never be committed)
+sign/signatures.jsonl
+sign/.ratelimit.json
